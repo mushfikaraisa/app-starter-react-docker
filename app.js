@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 
 // serve static assets from the public/ folder
-app.use(express.static('public'));
+app.use(express.static("dist"));
 
 
 
